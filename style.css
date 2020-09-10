@@ -96,9 +96,12 @@ header p    {
     margin-bottom: .6rem;
 }
 .full-width {
-    width: 100%;
+    width: 98vw;
     display: flex;
     justify-content: center;
+}
+.full-width img{
+    width: 98vw;
 }
 .options {
     display: flex;
@@ -225,11 +228,6 @@ ul li {
     }
     .feature h3 {
         margin-bottom: .6rem;
-    }
-    .full-width {
-        width: 100%;
-        display: flex;
-        justify-content: center;
     }
     .options {
         display: flex;
