@@ -14,8 +14,8 @@ p {
     color: rgba(0, 0, 0, 0.281);
 }
 header {
-    min-width: 98.38vw;
-    min-height: 100vh;
+    min-width: 100vw;
+    min-height: 630px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,6 +61,7 @@ header p    {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 3rem;
 }
 .section-head h2 {
     margin-bottom: 1rem;
@@ -75,12 +76,11 @@ header p    {
 #features {
     display: flex;
     align-items: center;
-    width: 98vw;
-    height: 80vh;
+    width: 100vw;
 }
 #features .left {
     width: 55vw;
-    margin-left: -3vw;
+    margin-left: -1vw;
 }
 #features .left img{
     width: 50vw
@@ -96,13 +96,13 @@ header p    {
     margin-bottom: .6rem;
 }
 .full-width {
-    width: 100%;
+    width: 80vw;
     display: flex;
     justify-content: center;
 }
 .options {
     display: flex;
-    height: 40vh;
+    height: max-content;
     padding: 4rem;
     flex-direction: row;
     justify-content: space-evenly;
@@ -120,7 +120,7 @@ header p    {
     margin-bottom: .5rem;
 }
 .clients {
-    margin: 4rem 1rem;
+    margin: 3rem 1rem;
     width:98vw;
     display: flex;
     justify-content: space-evenly;
@@ -130,8 +130,9 @@ header p    {
     width: 12vw;
 }
 footer{
-    width: 95vw;
-    height: 30vh;
+    width: 100vw;
+    height: 150px;
+    padding: 1rem;
     margin-top: 3rem;
     background-color: rgba(0, 0, 0, 0.068);
     display: flex;
@@ -142,30 +143,31 @@ footer img {
     width: 5rem;
 }
 footer ul {
-    display: flex;
-    flex-flow: column wrap;
     list-style-type: none;
     color:rgba(0, 0, 0, 0.712);
-    height: 5rem;
-    width: 20rem;
+    height: 4rem;
+    max-width: 20rem;
+    width: 40vw;
 }
 ul li {
-    padding: .5rem;
+    margin: 0rem 1rem 1rem 0rem;
+    display: inline-block;
     cursor: pointer;
 }
 .icons a img{
-    height: 2rem;
-    width: 2rem;
-    margin-left: 1.5rem;
+    height: 1.8rem;
+    width: 1.8rem;
+    margin-left: 1rem;
 }
 
 @media(max-width: 500px){
     
     header {
         background-image: url('images/bg-header-mobile.png');
+        padding-top: 6rem;
     }
     header .logo {
-        margin-bottom: 3.5rem;
+        margin-bottom: 3rem;
     }
     header h1 {
         max-width: 80vw;
@@ -180,10 +182,12 @@ ul li {
         flex-direction: column;
     }
     .cta-btns a{
-        width: 15rem;
+        display: inline-block;
+        width: 70vw;
+        padding: .9rem;
     }
     .cta-btns .second {
-        margin: 1rem 0rem;
+        margin: 1.5rem 0rem;
     }
     .section-head {
         display: flex;
@@ -227,7 +231,7 @@ ul li {
         margin-bottom: .6rem;
     }
     .full-width {
-        width: 100%;
+        width: 90vw;
         display: flex;
         justify-content: center;
     }
@@ -266,8 +270,8 @@ ul li {
     }
     footer{
         width: 95vw;
-        height: 70vh;
-        margin-top: 12rem;
+        height: max-content;
+        margin-top: 150px;
         background-color: rgba(0, 0, 0, 0.068);
         display: flex;
         flex-direction: column;
@@ -275,7 +279,7 @@ ul li {
         justify-content: space-evenly;
     }
     footer img {
-        width: 5rem;
+        width: 4.5rem;
     }
     footer ul {
         display: flex;
@@ -291,9 +295,9 @@ ul li {
         cursor: pointer;
     }
     .icons a img{
-        height: 2rem;
-        width: 2rem;
-        margin-left: 2rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: .5rem;
     }
     
 }
