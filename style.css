@@ -122,6 +122,7 @@ header p    {
 .clients {
     margin: 3rem 1rem;
     width:98vw;
+    max-width: 1200px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
