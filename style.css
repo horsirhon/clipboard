@@ -97,6 +97,7 @@ header p    {
 }
 .feature h3 {
     margin-bottom: .6rem;
+    font-size:  1.4rem;
 }
 .full-width {
     width: 80vw;
@@ -237,6 +238,7 @@ ul li {
     }
     .feature h3 {
         margin-bottom: .6rem;
+        
     }
 
     .full-width {
