@@ -10,7 +10,7 @@ body{
     align-items: center;
 }
 p {
-    font-size: 17px;
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.281);
 }
 header {
@@ -29,8 +29,10 @@ header .logo {
     margin-bottom: 3.5rem;
 }
 header h1 {
-    margin-bottom: 1rem;
+    margin: 1rem;
     text-align: center;
+    font-size: 2.2rem;
+    
 }
 header p    {
     width: 60vw;
@@ -61,6 +63,7 @@ header p    {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    font-size: 1.2rem;
     margin: 3rem;
 }
 .section-head h2 {
@@ -114,6 +117,7 @@ header p    {
 .option{
     width: 25vw;
     text-align: center;
+    margin: 0px .8rem;
 }
 .option img {
     margin: .5rem;
